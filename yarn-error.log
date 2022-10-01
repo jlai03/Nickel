@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/jonathanlai/.nvm/versions/node/v14.4.0/bin/node /Users/jonathanlai/.yarn/bin/yarnpkg install
+
+PATH: 
+  /Users/jonathanlai/.npm/_npx/1464/bin:/Users/jonathanlai/.rbenv/shims:/Users/jonathanlai/opt/miniconda3/condabin:/Users/jonathanlai/.rbenv/shims:/Users/jonathanlai/.nvm/versions/node/v14.4.0/bin:/Users/jonathanlai/.yarn/bin:/Users/jonathanlai/.config/yarn/global/node_modules/.bin:/Users/jonathanlai/anaconda2/bin:/Users/jonathanlai/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "nickel",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~46.0.13",
+      "expo-status-bar": "~1.4.0",
+      "react": "18.0.0",
+      "react-native": "0.69.6"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
